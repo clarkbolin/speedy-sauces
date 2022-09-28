@@ -1,6 +1,6 @@
 
 body {
-  background-image: url("IMG_0893.jpeg");
+  background-image: url("spices.png");
   background-color: #cccccc;
   background-size: cover;
 }
@@ -21,7 +21,7 @@ header {
   padding-bottom: 0%;
 }
 
-.bigname #name {
+.topnav #name {
   font-size: 40px;
   color: #a52a2a;
   float: left;
@@ -63,6 +63,7 @@ footer {
   height: 10%;
   width: 100%;
 }
+
 
 
 img {
