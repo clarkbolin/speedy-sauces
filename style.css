@@ -5,6 +5,8 @@ body {
   background-size: cover;
 }
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 body, html {
   margin: 0;
   display: relative;
@@ -18,7 +20,8 @@ header {
   color: #a52a2a;
   height: 7%;
   width: 100%;
-  padding-bottom: 0%;
+  padding-bottom: 3%;
+  
 }
 
 .topnav #name {
@@ -27,13 +30,14 @@ header {
   float: left;
   padding-left: 3%;
   display: block;
+  padding: 20px;
 }
 
 .topnav #links {
-  font-size: 20px;
+  font-size: 30px;
   color: #a52a2a;
   float: right;
-  padding: 1%;
+  padding: 20px;
   display: block;
 }
 
@@ -54,6 +58,7 @@ h4,
 h5,
 h6 {
   font-family: Geneva, Verdana, sans-serif;
+  
 }
 
 footer {
@@ -77,11 +82,12 @@ h1 {
   background-color: #a52a2a;
   font-size: 22px;
   padding-left: 3%;
+  height: 5%;
 }
 
 #story {
   background-color: rgb(165, 42, 42, 0.9);
-  font-size: medium;
+  font-size: 30px;
   display: block;
   padding: 2%;
 }
