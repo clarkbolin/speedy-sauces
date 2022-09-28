@@ -13,16 +13,15 @@ body, html {
 
 header {
   text-align: center;
-  position: absolute;
   top: 0;
   background-color: bisque;
   color: #a52a2a;
   height: 7%;
   width: 100%;
-  margin-bottom: 20px;
+  padding-bottom: 0%;
 }
 
-.topnav #name {
+.bigname #name {
   font-size: 40px;
   color: #a52a2a;
   float: left;
@@ -34,14 +33,15 @@ header {
   font-size: 20px;
   color: #a52a2a;
   float: right;
-  padding-right: 1%;
-  padding-left: 1%;
+  padding: 1%;
   display: block;
 }
 
+
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
+a:hover{ text-decoration: none; 
+background-color: #cccccc;}
 a:active { text-decoration: none; }
 
 
@@ -58,14 +58,12 @@ h6 {
 
 footer {
   text-align: center;
-  position: absolute;
-  bottom: 0;
   background-color: bisque;
   color: #a52a2a;
   height: 10%;
   width: 100%;
-  margin-top: 2%;
 }
+
 
 img {
   display: block;
@@ -77,8 +75,6 @@ h1 {
   color: beige;
   background-color: #a52a2a;
   font-size: 22px;
-  padding-top: 60px;
-  display: block;
   padding-left: 3%;
 }
 
@@ -92,15 +88,18 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
+  padding: 2%;
 }
 
 .column {
   justify-content: center;
   padding: 2%;
+  align-items: center;
 }
 
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 2%;
 }
